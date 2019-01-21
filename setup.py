@@ -19,9 +19,10 @@ setup(
     package_dir={"": os.path.join(ROOT, "src")},
     install_requires=[
         line.strip()
-        for line in open(os.path.join(ROOT, "requirements.txt"))
-        if not line.startswith("#")
-        and line.strip() != ""
+        for line in open(
+            os.path.join(
+                ROOT, "requirements.txt")) if not line.startswith(
+                    "#") and line.strip() != ""
     ],
     classifiers=[
         "Development Status :: 4 - Beta",
