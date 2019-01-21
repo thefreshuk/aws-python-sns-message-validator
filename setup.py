@@ -10,7 +10,7 @@ setup(
     version="0.1",
     url="https://github.com/thefreshuk/aws-python-sns-message-validator",
     name="aws_sns_validator",
-    description=("Validate the integrity of Amazon SNS message with support
+    description=("Validate the integrity of Amazon SNS message with support"
                  "for use with Fake_SNS"),
     long_description=open(os.path.join(ROOT, "README.md")).read(),
     author="Neil Hickman",
