@@ -4,6 +4,8 @@ import os.path
 
 from setuptools import setup
 
+ROOT = os.path.dirname(__file__)
+
 setup(
     version="0.1",
     url="https://github.com/thefreshuk/aws-python-sns-message-validator",
