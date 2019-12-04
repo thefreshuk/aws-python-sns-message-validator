@@ -16,7 +16,7 @@ setup(
     author="Neil Hickman",
     author_email="neil@thefreshuk.com",
     packages=["aws_sns_validator"],
-    package_dir={"src":"src"},
+    package_dir={"":"src"},
     install_requires=["m2crypto"],
     classifiers=[
         "Development Status :: 4 - Beta",
