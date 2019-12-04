@@ -17,13 +17,7 @@ setup(
     author_email="neil@thefreshuk.com",
     packages=["aws_sns_validator"],
     package_dir={"src":"src"},
-    install_requires=[
-        line.strip()
-        for line in open(
-            os.path.join(
-                ROOT, "requirements.txt")) if not line.startswith(
-                    "#") and line.strip() != ""
-    ],
+    install_requires=["m2crypto"],
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
